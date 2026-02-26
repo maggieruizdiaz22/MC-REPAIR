@@ -33,7 +33,6 @@ const Header = () => {
           >
             View Our Work
           </a>
-
           <a
             href="#Contact"
             className="bg-blue-600 px-8 py-3 rounded hover:bg-blue-700 transition"

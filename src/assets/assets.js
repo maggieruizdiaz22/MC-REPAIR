@@ -1,4 +1,4 @@
-import logo from './logo.svg'
+import logo from './logo.png'
 import logo_dark from './logo_dark.svg'
 import cross_icon from './cross_icon.svg'
 import menu_icon from './menu_icon.svg'
@@ -7,13 +7,13 @@ import left_arrow from './left_arrow.svg'
 import right_arrow from './right_arrow.svg'
 import header_img from './header_img.png'
 import brand_img from './brand_img.png'
-import project_img_1 from './project_img_1.jpg'
-import project_img_2 from './project_img_2.jpg'
-import project_img_3 from './project_img_3.jpg'
-import project_img_4 from './project_img_4.jpg'
-import project_img_5 from './project_img_5.jpg'
-import project_img_6 from './project_img_6.jpg'
-import profile_img_1 from './profile_img_1.png'
+import project_img_1 from './image4.jpeg'
+import project_img_2 from './image6.jpeg'
+import project_img_3 from './image7.jpeg'
+import project_img_4 from './image9.jpeg'
+import project_img_5 from './image11.jpeg'
+import project_img_6 from './image12.jpeg'
+import profile_img_1 from './image13.jpeg'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
 
@@ -34,44 +34,43 @@ export const assets = {
 }
 
 export const projectsData = [
-    {
-      title: "Skyline Haven",
-      price: "$2,50,000",
-      location: "California",
-      image: project_img_1
-    },
-    {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: project_img_2
-    },
-    {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: project_img_3
-    },
-    {
-      title: "Central Square",
-      price: "$2,50,000",
-      location: "Los Angeles",
-      image: project_img_4
-    },
-    {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: project_img_5
-    },
-    {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: project_img_6
-    },
-    
-  ];
+  {
+    title: "Modern Ceramic Bathroom",
+    price: "$2,50,000",
+    location: "California",
+    image: project_img_1,
+  },
+  {
+    title: "Wall & Floor Tile Installation",
+    price: "$2,50,000",
+    location: "San Francisco",
+    image: project_img_2,
+  },
+  {
+    title: "Complete Bathroom Renovation",
+    price: "$2,50,000",
+    location: "Chicago",
+    image: project_img_3,
+  },
+  {
+    title: "From Old to Modern – Bathroom Remodel",
+    price: "$2,50,000",
+    location: "Los Angeles",
+    image: project_img_4,
+  },
+  {
+    title: "Custom Tile Work",
+    price: "$2,50,000",
+    location: "San Francisco",
+    image: project_img_5,
+  },
+  {
+    title: "Complete Renovation",
+    price: "$2,50,000",
+    location: "Chicago",
+    image: project_img_6,
+  },
+];
 
   export const testimonialsData = [
     {

@@ -1,35 +1,6 @@
-import React from "react";
-import { toast } from "react-toastify";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-  const [result, setResult] = React.useState("");
-
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending...");
-    const formData = new FormData(event.target);
-
-    // Enter your Web3Forms Access Key below
-    formData.append("access_key", "---- Web3forms-Access-Key----");
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
-
-    const data = await response.json();
-
-    if (data.success) {
-      setResult("");
-      toast.success("Request Sent Successfully!");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      toast.error("Something went wrong. Please try again.");
-      setResult("");
-    }
-  };
 
   return (
     <motion.div
@@ -52,7 +23,8 @@ const Contact = () => {
       </p>
 
       <form
-        onSubmit={onSubmit}
+        action="https://formsubmit.co/maggieruizdiaz20@gmail.com"
+        method="POST"
         className="max-w-2xl mx-auto text-gray-600 pt-8"
       >
         <div className="flex flex-wrap">
@@ -101,7 +73,7 @@ const Contact = () => {
         </div>
 
         <button className="bg-blue-600 text-white py-2 px-12 mb-10 rounded">
-          {result ? result : "Request Free Estimate"}
+         Request Free Estimate
         </button>
       </form>
     </motion.div>
