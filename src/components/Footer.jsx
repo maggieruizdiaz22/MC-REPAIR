@@ -1,4 +1,3 @@
-import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
@@ -9,7 +8,15 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
         {/* Logo & Description */}
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
-          <img src={assets.logo_dark} alt="Company Logo" />
+          <h2 className="flex items-center gap-3 text-white">
+            <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7">
+              <path d="M12 2L2 9h2v11h6v-6h4v6h6V9h2L12 2z" />
+            </svg>
+
+            <span className="text-lg md:text-xl font-semibold tracking-[2px] uppercase">
+              Service Repair
+            </span>
+          </h2>
           <p className="text-gray-400 mt-4">
             Professional Tile, Drywall, and Painting Repair Services. We provide
             clean, reliable, and affordable home repairs with high-quality
