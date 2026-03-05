@@ -57,7 +57,7 @@ const About = () => {
             and professionally at an affordable price.
           </p>
 
-          <button className="bg-blue-600 text-white px-8 py-2 rounded">
+          <button className="bg-blue-600 text-white px-8 py-2 rounded" href="#Contact">
            Get a Free Estimate
           </button>
         </div>

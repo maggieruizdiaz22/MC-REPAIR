@@ -26,16 +26,17 @@ const Header = () => {
           reliable, and affordable home repairs you can trust.
         </p>
 
-        <div className="space-x-6 mt-12">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12 justify-center items-center">
           <a
             href="#Projects"
-            className="border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition"
+            className="w-full sm:w-auto text-center border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition"
           >
             View Our Work
           </a>
+
           <a
             href="#Contact"
-            className="bg-blue-600 px-8 py-3 rounded hover:bg-blue-700 transition"
+            className="w-full sm:w-auto text-center bg-blue-600 px-8 py-3 rounded hover:bg-blue-700 transition"
           >
             Get Free Estimate
           </a>
