@@ -9,7 +9,6 @@ const Header = () => {
       id="Header"
     >
       <Navbar />
-
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 1.5 }}
@@ -20,12 +19,10 @@ const Header = () => {
         <h1 className="text-4xl sm:text-5xl md:text-[70px] inline-block max-w-4xl font-semibold pt-20 leading-tight">
           Professional Tile & Drywall Repair Services
         </h1>
-
         <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-gray-200">
           Cracked tiles? Damaged drywall? Peeling paint? We provide clean,
           reliable, and affordable home repairs you can trust.
         </p>
-
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12 justify-center items-center">
           <a
             href="#Projects"
@@ -33,7 +30,6 @@ const Header = () => {
           >
             View Our Work
           </a>
-
           <a
             href="#Contact"
             className="w-full sm:w-auto text-center bg-blue-600 px-8 py-3 rounded hover:bg-blue-700 transition"

@@ -39,7 +39,9 @@ const Footer = () => {
         <div className="w-full md:w-1/3">
           <h3 className="text-white text-lg font-bold mb-4">Contact Info</h3>
           <p className="text-gray-400 mb-2">📞 +1 571 415 1766</p>
-          <p className="text-gray-400 mb-2">📧 Email: .com</p>
+          <p className="text-gray-400 mb-2">
+            📧 Email: info@repairservicellc.com
+          </p>
           <p className="text-gray-400">
             📍 Serving Virginia & Surrounding Areas
           </p>
